@@ -9,7 +9,7 @@ programa
 	}
     
     funcao loteria(){
-	    inteiro opcao = 0
+	    inteiro opcao 
 	
 		escreva("***** Bem-Vindo *****\n")
 		escreva("*********************\n")
@@ -29,8 +29,8 @@ programa
 		escolha(opcao){
 
 			caso 1:
-			inteiro num_de_Apostas = 0		
-			inteiro dinheiro_gasto = 0
+			inteiro num_de_Apostas 		
+			inteiro dinheiro_gasto 
 			real num_de_Dezena[16] 
 
 			num_de_Dezena[6] = 4.50
@@ -98,7 +98,7 @@ programa
 				mega[i] = numSorteado
 		     }
 		     //Organiza a aposta
-		     inteiro auxiliar = 0
+		     inteiro auxiliar 
 
 		     para(inteiro i = 0; i < 15; i++){
 		     	para(inteiro u = i + 1; u < 15; u++){
@@ -195,7 +195,7 @@ programa
 				mega[i] = numSorteado
 		     }
 		     //Organiza a aposta
-		     inteiro auxiliar = 0
+		     inteiro auxiliar 
 
 		     para(inteiro i = 0; i < 15; i++){
 		     	para(inteiro u = i + 1; u < 15; u++){
@@ -225,7 +225,7 @@ programa
 
 		 caso 3:
 		 inteiro dezenas = 50
-		 inteiro num_apostas = 0
+		 inteiro num_apostas 
 
 		 escreva("**** Na Lotomania, o número de dezenas é fixo em 50 ****\n")
 		 escreva("\n**** Valor da aposta: ****\n")
@@ -261,7 +261,7 @@ programa
 				mega[i] = numSorteado
 		     }
 		     //Organiza a aposta
-		     inteiro auxiliar = 0
+		     inteiro auxiliar 
 
 		     para(inteiro i = 0; i < 50; i++){
 		     	para(inteiro u = i + 1; u < 50; u++){
@@ -291,7 +291,7 @@ programa
 
 		 caso 4:
 		 inteiro Dezenas
-		 inteiro Num_aposta = 0
+		 inteiro Num_aposta 
          inteiro Num_dezenas[21]
          
 		 Num_dezenas[15] = 2.50
